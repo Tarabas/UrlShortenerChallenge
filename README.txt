@@ -40,7 +40,7 @@ Nicht oder nur teilweise umgesetzt wurden aufgrund der zeitlichen Limitierung di
 Das Projekt besteht aus mehreren Teilen:
 
 ######################
-# testo-repositories #
+# repositories       #
 ######################
 
 Beinhaltet die Anbindung an die MongoDB, in der die Daten gehalten werden, sowie den Converter von einer Zahlen-ID
@@ -57,7 +57,7 @@ beste Vorgehen ist und unter welchen Umständen ein Code-Sharing in Microservice
 Code als Library zu sharen.
 
 ####################
-# testo-redirector #
+# redirector       #
 ####################
 
 Beinhaltet den Spring Boot Microservice (Port 8090) für die Umleitung der ShortURLs auf die lange URL, wenn man die
@@ -67,7 +67,7 @@ dabei über "Fongo" in Verbindung mit nosqlunit gemockt.
 Beispielrequest: http://localhost:8090/a
 
 ####################
-# testo-urlservice #
+# urlservice       #
 ####################
 
 Beinhaltet den Spring Boot REST-Microservice (Port 8080), der die URLs verkürzt sowie eine index.html, die
@@ -87,7 +87,7 @@ Request: {"longUrl":"http://xxx.de", "token":"xxxx"}
 Response-Codes: 200 (OK), 401 (Unauthorized)
 
 #####################
-# testo-userservice #
+# userservice       #
 #####################
 
 Beinhaltet den Spring Boot REST-Microservice (Port 8081), der die Registrierung und den Login am System zulässt
