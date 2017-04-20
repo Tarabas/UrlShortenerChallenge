@@ -1,0 +1,27 @@
+<script type="text/javascript" src="jquery-3.2.1.js"></script>
+<script type="text/javascript">
+
+    function login() {
+        $.ajax({
+            type: "POST",
+            url: "http://localhost:8080/login",
+            data: JSON.stringify('{"userName": "' + userName + '", "password" : "' + password + '"}'),
+            contentType: "application/json; charset=utf-8",
+            dataType: "json",
+            success: function (data) {
+                $("#resultDiv").text("Token: "+data.token);
+            },
+            failure: function (errMsg) {
+                alert(errMsg);
+            }
+        });
+    }
+</script>
+<html>
+<form method="post" action="#" >
+    <input type="text" name="email"/>
+    <input type="password" name="password"/>
+    <input type="button" name="login" id="login" value="Login">
+</form>
+<div id="resultDiv"></div>
+</html>

@@ -1,0 +1,10 @@
+{
+  "urls": [
+  ],
+  "counters": [
+    {
+      "_id" : "url",
+      "counter" : 1.0
+    }
+  ]
+}

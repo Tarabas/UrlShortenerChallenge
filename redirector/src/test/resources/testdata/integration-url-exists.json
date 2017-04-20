@@ -1,0 +1,19 @@
+{
+  "urls": [
+    {
+      "_id" : ObjectId("58f0bcaba86ff84d9a1dd9c3"),
+      "_class" : "net.rorarius.data.Url",
+      "shortUrl" : "a",
+      "longUrl" : "https://www.xxx.de",
+      "callCount" : 2,
+      "shortenCount" : 1,
+      "sequence" : 1
+    }
+  ],
+  "counters": [
+    {
+    "_id" : "url",
+    "counter" : 1.0
+    }
+  ]
+}
