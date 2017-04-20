@@ -9,9 +9,9 @@
 
 Zeitrahmen: 3 Stunden
 
-#####################################################################################################################
+#############################################################################
 ####### Herangehensweise
-#####################################################################################################################
+#############################################################################
 
 Ich habe versucht, die Services anhand eines MVP zu implementieren. Dabei lag der Fokus erstmal eher auf dem
 Shortener und dem Redirector, da ich hier am schnellsten Resultate produzieren konnte.
@@ -35,7 +35,7 @@ Nicht oder nur teilweise umgesetzt wurden aufgrund der zeitlichen Limitierung di
   - Eine Sammelseite, die die beiden Frontend-Teile (Shortener und Login/Registrierung) auf einer Seite verbindet
     fehlt noch.
 
-#####################################################################################################################
+#############################################################################
 
 Das Projekt besteht aus mehreren Teilen:
 
