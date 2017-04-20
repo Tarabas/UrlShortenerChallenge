@@ -21,7 +21,7 @@ die Klassen und Methoden eindeutig und so klein wie möglich zu halten, so dass 
 
 Nicht oder nur teilweise umgesetzt wurden aufgrund der zeitlichen Limitierung die folgenden Features:
 
-  - Das Frontend ist aufgrund meines derzeitigen Fokus auf Backends erstmal nur ruimentär implementiert
+  - Das Frontend ist aufgrund meines derzeitigen Fokus auf Backends erstmal nur rudimentär implementiert
     (es fehlt z.B. Validierung der Eingaben sowie die Fehlerbehandlung im Frontend)
 
   - Der UserService ist noch unvollständig und beinhaltet bisher keine Unit- oder Integrationtests.
